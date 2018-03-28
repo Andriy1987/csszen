@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+
+@media screen and (min-width: 401px) {
+
+body {
+    max-width: 720px;
+    margin:auto;
+}
+
+
+.intro { 
+    background-image: url(images/space.jpg);
+    color:#FFAA00;
+    background-size: cover;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+    font-size: 30pt;
+    font-family: 'Mina', sans-serif;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Berkshire Swash', cursive;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+
+
+
+#zen-supporting { 
+    background-image: url(images/zen-supporting.jpg);
+    background-size: cover;
+    background-position:center;
+    color: #FFB873;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.requirements {
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+
+footer { 
+    text-align: center;
+}
+
+aside {
+    display:grid;
+    grid-column-start:1;
+    background-color: #7FFF00;
+    background-image: url(images/select.jpg);
+    background-size: auto;
+    background-position:center;
+    color: #39E639;
+}
+.sidebar li a:link {
+	color: #39E639;
+	}
+}
